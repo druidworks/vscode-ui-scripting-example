@@ -7,6 +7,10 @@ This is a basic implementation project of our VSCode Plugin "VSCode UI Scripting
 Install required node modules
 
         `npm install`
+        
+Install the following VSCode Plugin
+
+        https://marketplace.visualstudio.com/items?itemName=DruidWorksStudio.vscode-ui-scripting
 
 ## Review VSCode Plugin Setup
 
