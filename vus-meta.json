@@ -1,0 +1,4 @@
+{
+  "allowedDirectoryCommands": ["updateLibraries"],
+  "inherit": false
+}

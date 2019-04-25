@@ -1,0 +1,37 @@
+{
+  "commands": [
+    {
+      "name": "updateLibraries",
+      "command": "npm i",
+      "commandTemplate": "baseCommandOnly",
+      "inherit": false
+    },
+    {
+      "name": "addComponent",
+      "command": "node index.js addComponent",
+      "questions": [
+        {
+          "prompt": "What is your component name?",
+          "placeholder": "Enter component name..."
+        },
+        {
+          "prompt": "Select additional files to generate",
+          "placeholder": "Select additional files to generate",
+          "canPickMany": true,
+          "values": [
+            {
+              "label": "styles.css",
+              "Description": "Component CSS stylesheet",
+              "detail": "styles.css"
+            },
+            {
+              "label": "README.md",
+              "Description": "Component README.md",
+              "detail": "README.md"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

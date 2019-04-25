@@ -1,0 +1,6 @@
+{
+  "allowedDirectoryCommands": ["addComponent"],
+  "allowedFileCommands": {
+    "myComponent.js": ["processFile"]
+  }
+}
